@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  require_relative 'ribbits_controller.rb'
   def new
     @user = User.new
   end
